@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-word = "Holberton"
-print(word[3:8] + "-" + word[:2] + word[8:], end=" ")
-print(word[3:7] + " " + word[6:] + " " + word[:6])
+str = "Python is an interpreted, interactive, object-oriented programming \
+language that combines remarkable \
+power with very clear syntax"
+print(str[39:70] + str[103:108] + str[0:6])
